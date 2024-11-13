@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_graph"
+    app:startDestination="@id/bottom1Fragment2">
+
+    <fragment
+        android:id="@+id/bottom1Fragment2"
+        android:name="com.example.navigation_05.Bottom1Fragment"
+        android:label="Crear"
+        tools:layout="@layout/fragment_bottom1" />
+    <fragment
+        android:id="@+id/bottom2Fragment2"
+        android:name="com.example.navigation_05.Bottom2Fragment"
+        android:label="Añadir"
+        tools:layout="@layout/fragment_bottom2" />
+    <fragment
+        android:id="@+id/bottom3Fragment2"
+        android:name="com.example.navigation_05.Bottom3Fragment"
+        android:label="Borrar"
+        tools:layout="@layout/fragment_bottom3" />
+
+    <fragment
+        android:id="@+id/options1Fragment2"
+        android:name="com.example.navigation_05.Options1Fragment"
+        android:label="Buscar"
+        tools:layout="@layout/fragment_options1" />
+
+    <fragment
+        android:id="@+id/options2Fragment2"
+        android:name="com.example.navigation_05.Options2Fragment"
+        android:label="Configuración"
+        tools:layout="@layout/fragment_options2" />
+
+    <fragment
+        android:id="@+id/options3Fragment2"
+        android:name="com.example.navigation_05.Options3Fragment"
+        android:label="Compartir"
+        tools:layout="@layout/fragment_options3" />
+
+    <fragment
+        android:id="@+id/drawer1Fragment2"
+        android:name="com.example.navigation_05.Drawer1Fragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_drawer1" />
+
+    <fragment
+        android:id="@+id/drawer2Fragment2"
+        android:name="com.example.navigation_05.Drawer2Fragment"
+        android:label="Notificaciones"
+        tools:layout="@layout/fragment_drawer2" />
+
+    <fragment
+        android:id="@+id/drawer3Fragment2"
+        android:name="com.example.navigation_05.Drawer3Fragment"
+        android:label="Cerrar sesión"
+        tools:layout="@layout/fragment_drawer3" />
+
+</navigation>
